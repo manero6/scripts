@@ -1,0 +1,1 @@
+mkisofs -udf -V "win10_mkisofs" -b boot/etfsboot.com -no-emul-boot -boot-load-size 8 -iso-level 4 -o ../win10_mkisofs_auto_test.iso .
